@@ -37,7 +37,6 @@ export class HomeComponent implements OnInit {
   goalText: string = 'My fist life goal';
   goals = [];
 
-  
   constructor(private _data: DataService) { }
 
   ngOnInit() {
